@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -141,20 +141,20 @@
 <board>
 <plain>
 <text x="-70.96125" y="51.435" size="1.778" layer="21">A2017NP1</text>
-<dimension x1="-101.75875" y1="91.7575" x2="-1.825625" y2="92.471875" x3="-51.7921875" y3="-68.2625" layer="21" dtype="horizontal"/>
-<dimension x1="-123.19" y1="55.72125" x2="-120.015" y2="-43.65625" x3="85.4075" y3="6.0325" layer="21" dtype="vertical"/>
-<dimension x1="-99.21875" y1="21.43125" x2="-98.90125" y2="19.05" x3="-122.8725" y3="20.240625" layer="21" dtype="vertical"/>
-<dimension x1="-98.58375" y1="3.81" x2="-92.23375" y2="1.42875" x3="-111.76" y3="2.619375" layer="21" dtype="vertical"/>
+<dimension x1="-101.75875" y1="91.7575" x2="-1.825625" y2="92.471875" x3="-51.7921875" y3="-68.2625" textsize="3.5" layer="21" dtype="horizontal"/>
+<dimension x1="-121.44375" y1="73.3425" x2="-118.11" y2="-44.7675" x3="85.4075" y3="14.2875" textsize="3.5" layer="21" dtype="vertical"/>
+<dimension x1="-99.21875" y1="21.43125" x2="-98.90125" y2="19.05" x3="-122.8725" y3="20.240625" textsize="3.5" layer="21" dtype="vertical"/>
+<dimension x1="-98.58375" y1="3.81" x2="-92.23375" y2="1.42875" x3="-111.76" y3="2.619375" textsize="3.5" layer="21" dtype="vertical"/>
 <wire x1="-43.33875" y1="-16.1925" x2="-43.02125" y2="-16.51" width="0.254" layer="46"/>
 <wire x1="-43.02125" y1="-16.51" x2="-43.02125" y2="-16.66875" width="0.254" layer="46"/>
 <wire x1="-43.02125" y1="-16.66875" x2="-42.70375" y2="-16.66875" width="0.254" layer="46"/>
 <wire x1="-42.70375" y1="-16.66875" x2="-42.545" y2="-16.8275" width="0.254" layer="46"/>
-<dimension x1="-14.605" y1="-8.41375" x2="-12.065" y2="-20.79625" x3="-13.335" y3="-22.06625" layer="21" dtype="horizontal"/>
-<dimension x1="5.08" y1="69.05625" x2="17.62125" y2="-30.7975" x3="-150.33625" y3="19.129375" layer="21" dtype="vertical"/>
-<dimension x1="-32.385" y1="-10.95375" x2="-29.845" y2="-8.73125" x3="-31.115" y3="-17.145" layer="21" dtype="horizontal"/>
+<dimension x1="-14.605" y1="-8.41375" x2="-12.065" y2="-20.79625" x3="-13.335" y3="-22.06625" textsize="3.5" layer="21" dtype="horizontal"/>
+<dimension x1="5.08" y1="69.05625" x2="17.62125" y2="-30.7975" x3="-150.33625" y3="19.129375" textsize="3.5" layer="21" dtype="vertical"/>
+<dimension x1="-32.385" y1="-10.95375" x2="-29.845" y2="-8.73125" x3="-31.115" y3="-17.145" textsize="3.5" layer="21" dtype="horizontal"/>
 <wire x1="-101.75875" y1="53.81625" x2="-101.75875" y2="-53.975" width="0.254" layer="20"/>
 <wire x1="-1.825625" y1="-61.595" x2="-1.825625" y2="53.49875" width="0.254" layer="20"/>
-<dimension x1="-162.004375" y1="97.4725" x2="-51.831875" y2="38.25875" x3="-106.918125" y3="98.028125" layer="21" dtype="horizontal"/>
+<dimension x1="-162.004375" y1="97.4725" x2="-51.831875" y2="38.25875" x3="-106.918125" y3="98.028125" textsize="3.5" layer="21" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="con_nes">
