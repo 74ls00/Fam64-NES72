@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4333,6 +4333,94 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="headers(2mm)">
+<packages>
+<package name="1X8">
+<rectangle x1="-7.254" y1="-0.254" x2="-6.746" y2="0.254" layer="21"/>
+<rectangle x1="-5.254" y1="-0.254" x2="-4.746" y2="0.254" layer="21"/>
+<rectangle x1="-3.254" y1="-0.254" x2="-2.746" y2="0.254" layer="21"/>
+<rectangle x1="-1.254" y1="-0.254" x2="-0.746" y2="0.254" layer="21"/>
+<rectangle x1="0.746" y1="-0.254" x2="1.254" y2="0.254" layer="21"/>
+<rectangle x1="2.746" y1="-0.254" x2="3.254" y2="0.254" layer="21"/>
+<rectangle x1="4.746" y1="-0.254" x2="5.254" y2="0.254" layer="21"/>
+<rectangle x1="6.746" y1="-0.254" x2="7.254" y2="0.254" layer="21"/>
+<pad name="1" x="-7" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="-5" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="-3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="4" x="-1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="5" x="1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="6" x="3" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="7" x="5" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="8" x="7" y="0" drill="0.8" diameter="1.4224"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1X8_HEADER">
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="10.16" size="1.016" layer="94" font="vector" rot="MR0" align="center">01</text>
+<text x="-2.54" y="13.335" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-12.065" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="2.54" y="10.16" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">02</text>
+<pin name="2" x="2.54" y="7.62" visible="off" length="point" rot="R180"/>
+<text x="0" y="5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">03</text>
+<text x="0" y="2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">04</text>
+<pin name="3" x="2.54" y="5.08" visible="off" length="point" rot="R180"/>
+<pin name="4" x="2.54" y="2.54" visible="off" length="point" rot="R180"/>
+<wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.016" layer="94" font="vector" rot="MR0" align="center">05</text>
+<text x="0" y="-2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">06</text>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="5" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<pin name="6" x="2.54" y="-2.54" visible="off" length="point" rot="R180"/>
+<text x="0" y="-5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">07</text>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="7" x="2.54" y="-5.08" visible="off" length="point" rot="R180"/>
+<text x="0" y="-7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">08</text>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<pin name="8" x="2.54" y="-7.62" visible="off" length="point" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1X8">
+<gates>
+<gate name="G$1" symbol="1X8_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4356,6 +4444,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="C72" library="h1,27mm" deviceset="1X54" device=""/>
 <part name="C60" library="h1,27mm" deviceset="1X54" device=""/>
+<part name="U$1" library="headers(2mm)" deviceset="1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4392,6 +4481,7 @@ SOUND_FROM_CARD = SND_OUT</text>
 </instance>
 <instance part="C72" gate="G$1" x="241.3" y="330.2" rot="MR180"/>
 <instance part="C60" gate="G$1" x="205.74" y="327.66"/>
+<instance part="U$1" gate="G$1" x="104.14" y="345.44"/>
 </instances>
 <busses>
 <bus name="A[0..15],D[0..7],PA[0..13],!PA13,PD[0..7],CLK21,CLK26,CLK_P21,CLK_P26,CIRAM-A10,CIRAM-CS,!IRQ,M2,!NMI,PALE,!PPU,!PRD,!PWE,!RAM,!ROMSEL,R/!W,!RST21,!RST26,!RST_P21,!RST_P26,4016CUP,4016RD_!OE,4016WR_B[0..2],4016RD_D[0..4],4017CUP,4017RD_!OE,4017RD_D[0..4],VIDEO21,VIDEO26,MIC,SND_IN,SND_OUT,SOUND21_[1..2],SOUND21,SOUND26_[1..2],SOUND26">
@@ -4404,11 +4494,6 @@ SOUND_FROM_CARD = SND_OUT</text>
 </segment>
 <segment>
 <wire x1="220.98" y1="261.62" x2="220.98" y2="396.24" width="0.762" layer="92"/>
-</segment>
-</bus>
-<bus name="A[0..15],D[0..7],PA[0..13],!PA13,PD[0..7],CLK21,CLK26,CLK_P21,CLK_P26,CIRAM-A10,CIRAM-CS,!IRQ,M2,!NMI,PALE,!PPU,!PRD,!PWE,!RAM,!ROMSEL,R/!W,!RST21,!RST26,!RST_P21,!RST_P26,4016CUP,4016RD_!OE,4016WR_B[0..2],4016RD_D[0..4],4017CUP,4017RD_!OE,4017RD_D[0..4],VIDEO21,VIDEO26,MIC,SND_IN,SND_OUT,SOUND21_[1..2],SOUND21,SOUND26_[1..2],SOUND26">
-<segment>
-<wire x1="185.42" y1="261.62" x2="185.42" y2="396.24" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
